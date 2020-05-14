@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConceptObjetJava/ConceptObjetJava.iml" filepath="$PROJECT_DIR$/ConceptObjetJava/ConceptObjetJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demenagement/Demenagement.iml" filepath="$PROJECT_DIR$/Demenagement/Demenagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello_0/Hello_0.iml" filepath="$PROJECT_DIR$/Hello_0/Hello_0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_exo_start.iml" filepath="$PROJECT_DIR$/.idea/Java_exo_start.iml" />
+    </modules>
+  </component>
+</project>
