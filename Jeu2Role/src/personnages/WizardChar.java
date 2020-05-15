@@ -1,12 +1,12 @@
 package personnages;
 
-public class WizardChar {
+public class WizardChar extends BonesChar{
     private  String name ;
     private String img ;
     private int health;
     private int strikeForce;
-    private boolean stuff;
-    private boolean buff;
+    private int stuff;
+    private int buff;
 
     public WizardChar()
     {
@@ -14,8 +14,8 @@ public class WizardChar {
         this.img = "";
         this.health = 0;
         this.strikeForce = 0;
-        this.stuff = false;
-        this.buff = false;
+        this.stuff = 0;
+        this.buff = 0;
     }
 
     public String getName() {
@@ -50,20 +50,30 @@ public class WizardChar {
         this.strikeForce = strikeForce;
     }
 
-    public boolean isStuff() {
+    public int isStuff() {
         return stuff;
     }
 
-    public void setStuff(boolean stuff) {
+    public void setStuff(int stuff) {
         this.stuff = stuff;
     }
 
-    public boolean isBuff() {
+    public int isBuff() {
         return buff;
     }
 
-    public void setBuff(boolean buff) {
+    public void setBuff(int buff) {
         this.buff = buff;
     }
+
+    public String toString() {
+        return " Nom du guerrier " + this.name +
+                " Image du guerrier " + this.img +
+                " Santé " + this.health +
+                " strikeforce " + this.strikeForce +
+                " Stuff " + this.stuff +
+                " Buff " + this.buff;
+    }
+
 }
 

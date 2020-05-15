@@ -17,6 +17,7 @@ public class Menu {
                 String nomDuPersonnage = sc.nextLine();
                 NouveauJoueur.setName(nomDuPersonnage);
                 System.out.println("Tu t'appelle vraiment " + NouveauJoueur.getName() + " ? ...c'est pas de chance... Bon c'est parti! Essai de rester en vie!");
+                System.out.println("Voici tes specs : "+ NouveauJoueur);
                 pasRepondu = false;
             } else if (choice.equals("guerrier")) {
                 WarriorChar NouveauJoueur = new WarriorChar();
@@ -24,6 +25,7 @@ public class Menu {
                 String nomDuPersonnage = sc.nextLine();
                 NouveauJoueur.setName(nomDuPersonnage);
                 System.out.println("Tu t'appelle vraiment " + NouveauJoueur.getName() + " ? Alors...c'est pas de chance... Bon c'est parti! Essai de rester en vie.");
+                System.out.println("Voici tes specs : "+ NouveauJoueur);
                 pasRepondu = false;
             } else {
                 System.out.println("Me prend pas pour un jambon!");
