@@ -12,8 +12,8 @@ public class WizardChar extends BonesChar implements InterfaceChar{
     {
         this.name = "" ;
         this.img = "";
-        this.health = 0;
-        this.strikeForce = 0;
+        this.health = (int)(3+3*Math.random());
+        this.strikeForce = (int)(8+7*Math.random());
         this.stuff = 0;
         this.buff = 0;
     }
@@ -67,12 +67,12 @@ public class WizardChar extends BonesChar implements InterfaceChar{
     }
 
     public String toString() {
-        return " Nom du combattant " + this.name +
-                " Image du combattant " + this.img +
-                " Santé " + this.health +
-                " strikeforce " + this.strikeForce +
-                " Stuff " + this.stuff +
-                " Buff " + this.buff;
+        return " Vous êtes une vieille branche plus connu sous le nom de: " + this.name +
+                //" Image du combattant " + this.img +
+                " - Point de vie " + this.health +
+                " - Dégats critiques : " + this.strikeForce ;
+                //" Stuff " + this.stuff +
+                //" Buff " + this.buff;
     }
 
 }

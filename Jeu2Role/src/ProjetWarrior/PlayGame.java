@@ -1,4 +1,6 @@
 package ProjetWarrior;
+import personnages.InterfaceChar;
+
 import java.util.Scanner;
 
 public class PlayGame {
@@ -12,8 +14,5 @@ public class PlayGame {
         System.out.println("Tu obtiens un " + valeurDe + " sur ton jet de dés.");
         return valeurDe;
     }
-
-
-
 }
 

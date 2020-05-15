@@ -1,6 +1,6 @@
 package personnages;
 
-public class WarriorChar extends BonesChar implements InterfaceChar{
+public class WarriorChar extends BonesChar implements InterfaceChar {
     private  String name ;
     private String img ;
     private int health;
@@ -11,8 +11,8 @@ public class WarriorChar extends BonesChar implements InterfaceChar{
     public WarriorChar() {
         this.name = "";
         this.img = "";
-        this.health = 0;
-        this.strikeForce = 0;
+        this.health = (int)(5+ 5*Math.random());
+        this.strikeForce = (int)(5+ 5*Math.random());
         this.stuff = 0;
         this.buff = 0;
     }
@@ -67,12 +67,12 @@ public class WarriorChar extends BonesChar implements InterfaceChar{
 
 
     public String toString() {
-        return " Nom du combattant " + this.name +
-                " Image du combattant " + this.img +
-                " Santé " + this.health +
-                " strikeforce " + this.strikeForce +
-                " Stuff " + this.stuff +
-                " Buff " + this.buff;
+        return " Vous êtes une brute connue sous le nom de: " + this.name +
+                //" Image du combattant " + this.img +
+                " - Point de vie " + this.health +
+                " - Force à main nue! : " + this.strikeForce ;
+                //" Stuff " + this.stuff +
+                //" Buff " + this.buff;
     }
 
 

@@ -35,9 +35,9 @@ public class Menu {
             }
         }
         sc.close();
-        System.out.println("Tu t'appelle vraiment " + newJoueur.getName() + " ? Alors ça...c'est pas de chance... Bon c'est parti! Essai de rester en vie.");
-        System.out.println("Voici tes specs : "+ newJoueur);
+        System.out.println("Tu t'appelle vraiment " + newJoueur.getName() + " ? Alors ça...c'est pas de chance... Bon c'est parti! ");
+        System.out.println("Voici tes specs de départ... Essai de rester en vie ! "+ newJoueur);
     }
-    }
+}
 
 
