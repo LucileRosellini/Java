@@ -1,6 +1,6 @@
 package personnages;
 
-public class BonesChar {
+public class BonesChar implements InterfaceChar{
 
         private  String name ;
         private String img ;
@@ -68,8 +68,8 @@ public class BonesChar {
 
 
         public String toString() {
-            return " Nom du guerrier " + this.name +
-                    " Image du guerrier " + this.img +
+            return " Nom du combattant " + this.name +
+                    " Image du combattant" + this.img +
                     " Santé " + this.health +
                     " strikeforce " + this.strikeForce +
                     " Stuff " + this.stuff +
