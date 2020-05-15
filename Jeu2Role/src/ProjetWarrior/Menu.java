@@ -5,7 +5,7 @@ import personnages.WizardChar;
 import java.util.Scanner;
 
 public class Menu {
-    public void MsgAccueil (){
+    public void msgAccueil (){
         Scanner sc = new Scanner(System.in);
         boolean pasRepondu = true;
         while(pasRepondu) {
@@ -30,6 +30,6 @@ public class Menu {
             }
         }
     }
+    }
 
 
-}
