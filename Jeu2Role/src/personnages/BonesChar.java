@@ -50,7 +50,7 @@ public class BonesChar implements InterfaceChar{
             this.strikeForce = strikeForce;
         }
 
-        public int isStuff() {
+        public int getStuff() {
             return stuff;
         }
 
@@ -58,7 +58,7 @@ public class BonesChar implements InterfaceChar{
             this.stuff = stuff;
         }
 
-        public int isBuff() {
+        public int getBuff() {
             return buff;
         }
 

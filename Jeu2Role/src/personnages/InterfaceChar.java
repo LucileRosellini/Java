@@ -13,10 +13,10 @@ public interface InterfaceChar {
     public int getStrikeForce();
     public void setStrikeForce(int strikeForce);
 
-    public int isStuff();
+    public int getStuff();
     public void setStuff(int stuff);
 
-    public int isBuff();
+    public int getBuff();
     public void setBuff(int buff);
 
     public String toString();

@@ -49,7 +49,7 @@ public class WarriorChar extends BonesChar implements InterfaceChar {
         this.strikeForce = strikeForce;
     }
 
-    public int isStuff() {
+    public int getStuff() {
         return stuff;
     }
 
@@ -57,7 +57,7 @@ public class WarriorChar extends BonesChar implements InterfaceChar {
         this.stuff = stuff;
     }
 
-    public int isBuff() {
+    public int getBuff() {
         return buff;
     }
 
@@ -70,7 +70,7 @@ public class WarriorChar extends BonesChar implements InterfaceChar {
         return " Vous êtes une brute connue sous le nom de: " + this.name +
                 //" Image du combattant " + this.img +
                 " - Point de vie " + this.health +
-                " - Force à main nue! : " + this.strikeForce ;
+                " - Force à main nue " + this.strikeForce ;
                 //" Stuff " + this.stuff +
                 //" Buff " + this.buff;
     }

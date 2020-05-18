@@ -1,6 +1,6 @@
 package ennemis;
 
-public class Gobelins extends BonesEnnemis {
+public class Gobelins extends BonesEnnemis implements InterfaceMonster {
         private int health;
         private int strikeForce;
 

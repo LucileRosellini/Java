@@ -1,6 +1,6 @@
 package ennemis;
 
-public class Witcher extends BonesEnnemis {
+public class Witcher extends BonesEnnemis implements InterfaceMonster{
     private int health;
     private int strikeForce;
 

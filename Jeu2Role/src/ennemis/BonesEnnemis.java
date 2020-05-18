@@ -1,6 +1,6 @@
 package ennemis;
 
-public class BonesEnnemis {
+public class BonesEnnemis implements InterfaceMonster {
 
     private int health;
 
