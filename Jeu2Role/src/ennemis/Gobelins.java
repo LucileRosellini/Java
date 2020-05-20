@@ -1,9 +1,11 @@
 package ennemis;
 
-public class Gobelins extends BonesEnnemis implements InterfaceMonster {
-        private int health;
-        private int strikeForce;
+import ProjetWarrior.InterfaceDeplacement;
 
+public class Gobelins extends BonesEnnemis {
+
+    private int health;
+        private int strikeForce;
 
         public Gobelins() {
             this.health = 6;

@@ -1,6 +1,8 @@
 package ennemis;
 
-public class Witcher extends BonesEnnemis implements InterfaceMonster{
+import ProjetWarrior.InterfaceDeplacement;
+
+public class Witcher extends BonesEnnemis {
     private int health;
     private int strikeForce;
 
@@ -8,6 +10,7 @@ public class Witcher extends BonesEnnemis implements InterfaceMonster{
     public Witcher() {
         this.health = 9;
         this.strikeForce = 2;
+
     }
 
 

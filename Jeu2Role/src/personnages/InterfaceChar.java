@@ -19,6 +19,9 @@ public interface InterfaceChar {
     public int getBuff();
     public void setBuff(int buff);
 
+    public int getPosition();
+    public void setPosition(int position);
+
     public String toString();
 }
 

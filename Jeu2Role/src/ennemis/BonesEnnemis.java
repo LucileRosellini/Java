@@ -1,10 +1,10 @@
 package ennemis;
 
-public class BonesEnnemis implements InterfaceMonster {
+import ProjetWarrior.InterfaceDeplacement;
+
+public class BonesEnnemis {
 
     private int health;
-
-
     private int strikeForce;
 
 

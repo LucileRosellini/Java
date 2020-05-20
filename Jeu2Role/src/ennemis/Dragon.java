@@ -1,13 +1,15 @@
 package ennemis;
 
-public class Dragon extends BonesEnnemis implements InterfaceMonster{
+import ProjetWarrior.InterfaceDeplacement;
+
+public class Dragon extends BonesEnnemis {
     private int health;
     private int strikeForce;
-
 
     public Dragon() {
         this.health = 15;
         this.strikeForce = 4;
+
     }
 
 

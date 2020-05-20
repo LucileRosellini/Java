@@ -1,6 +1,8 @@
 package personnages;
 
-public class BonesChar implements InterfaceChar{
+import ProjetWarrior.InterfaceDeplacement;
+
+public class BonesChar implements InterfaceChar, InterfaceDeplacement {
 
         private  String name ;
         private String img ;
@@ -8,6 +10,7 @@ public class BonesChar implements InterfaceChar{
         private int strikeForce;
         private int stuff;
         private int buff;
+        private int position;
 
         public BonesChar() {
             this.name = "";
@@ -16,6 +19,7 @@ public class BonesChar implements InterfaceChar{
             this.strikeForce = 0;
             this.stuff = 0;
             this.buff = 0;
+            this.position = 0;
         }
 
         public String getName() {
@@ -65,6 +69,14 @@ public class BonesChar implements InterfaceChar{
         public void setBuff(int buff) {
             this.buff = buff;
         }
+
+    public int getPosition() {
+        return position;
+    }
+
+    public void setPosition(int position) {
+        this.position = position;
+    }
 
 
         public String toString() {
