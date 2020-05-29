@@ -1,6 +1,9 @@
 package buff;
 
-public abstract class BonusDef {
+import Perso.Personnage;
+import ProjetWarrior.IEvent;
+
+public abstract class BonusDef implements IEvent {
     private  String name ;
     private int buffBonus;
 
@@ -24,5 +27,21 @@ public abstract class BonusDef {
     public void setBuffBonus(int buffBonus) {
         this.buffBonus = buffBonus;
     }
+
+    @Override
+    public void interaction(Personnage player) {
+
+        //si cet obet là
+      // if( this instanceof GrandBouclier)
+        //if( this instanceof GrandBouclier)
+        //if( this instanceof GrandBouclier)
+        //if( this instanceof GrandBouclier)
+        // {
+//impression stringScanner sc = new Scanner(System.in);
+//                System.out.println("Distribution de baffes! Et BAM! Dans sa mouille!")
+    }
+
+
+    //methode interact
 }
 

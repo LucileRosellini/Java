@@ -1,7 +1,8 @@
 package Adversaire;
 
 public class Gobelins extends Ennemis {
-    public Gobelins(int sante, int puissanceFrappe) {
+    public Gobelins() {
         super(6, 1);
     }
+
 }

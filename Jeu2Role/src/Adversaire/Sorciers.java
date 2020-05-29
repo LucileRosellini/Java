@@ -1,7 +1,7 @@
 package Adversaire;
 
 public class Sorciers extends Ennemis {
-    public Sorciers(int sante, int puissanceFrappe) {
+    public Sorciers() {
         super(9, 2);
     }
 }

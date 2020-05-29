@@ -3,6 +3,7 @@ package ProjetWarrior;
 import Perso.Personnage;
 import java.util.Scanner;
 
+
 public class Deplacement {
 
     public int lanceDe() {

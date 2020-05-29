@@ -1,7 +1,7 @@
 package buff;
 
 public class GrandePotion extends BonusDef{
-    public GrandePotion(String nomItem, int pvSauvegarde) {
+    public GrandePotion() {
         super("Grande potion de vie", 5);
     }
 }

@@ -1,6 +1,10 @@
 package Adversaire;
 
-public abstract class Ennemis {
+
+import Perso.Personnage;
+import ProjetWarrior.IEvent;
+
+public abstract class Ennemis implements IEvent {
 
     private int health;
     private int strikeForce;
@@ -28,5 +32,13 @@ public abstract class Ennemis {
         this.strikeForce = strikeForce;
     }
 
+
+
+    @Override
+    public void interaction(Personnage player) {
+
+
+
+    }
 }
 
