@@ -41,7 +41,7 @@ public class EmptyCase implements IEvent {
           break;
 
           case 1:
-          System.out.println("Nop! Rien ici!");
+          System.out.println("Vous entrez dans une grande pièce remplit de toiles d'araignées, vous fouillez mais vous ne trouvez rien. Vous retournez dans la pièce principale.");
           break;
 
           case 2:
@@ -57,7 +57,7 @@ public class EmptyCase implements IEvent {
           break;
 
           case 5:
-          System.out.println("Vous trouvez une bourse remplit d'or! Et hop! In The pocket!");
+          System.out.println("Vous trouvez une bourse remplit d'or! Et hop! In The pocket! ");
           break;
 
           case 6:
@@ -65,7 +65,7 @@ public class EmptyCase implements IEvent {
           break;
 
           case 7:
-          System.out.println("Vous êtes perdu dans le donjon. Vous pleurez à chaude larme en priant pour que vôtre maman vienne vous cherchez.");
+          System.out.println("Vous avez pris le mauvais chemin. Bien joué! Vous êtes perdu. ( C'est pas la peine de pleurer! Vôtre môman ne viendra pas vous cherchez.)guerr");
           break;
 
           case 8:

@@ -68,11 +68,11 @@ public abstract class Personnage {
 
 
     public String toString() {
-        return " Nom du combattant " + this.name +
-                " Santé " + this.health +
-                " strikeforce " + this.strikeForce +
-                " Stuff " + this.stuff +
-                " Buff " + this.buff;
+        return " Nom du mercenaire: " + this.name + " , " +
+                " Santé : " + this.health + " , " +
+                " Force de frappe: " + this.strikeForce ;
+               // " Stuff " + this.stuff +
+                //" Buff " + this.buff;
     }
 
 }

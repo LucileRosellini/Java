@@ -9,10 +9,12 @@ public abstract class Ennemis implements IEvent {
     private int health;
     private int strikeForce;
 
+    private String name;
 
-    public Ennemis(int sante, int puissanceFrappe ) {
+    public Ennemis(int sante, int puissanceFrappe, String nom ) {
         this.health = sante;
         this.strikeForce = puissanceFrappe;
+        this.name = nom;
 
     }
 
@@ -32,12 +34,13 @@ public abstract class Ennemis implements IEvent {
         this.strikeForce = strikeForce;
     }
 
-
+    public String getName() {
+        return name;
+    }
 
     @Override
     public void interaction(Personnage player) {
-
-
+        System.out.println("Vous tombez nez à nez avec un " + this.getName() + "! Oh non! Il vous a vu!");
 
     }
 }

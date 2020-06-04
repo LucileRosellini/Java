@@ -10,6 +10,10 @@ import java.util.ArrayList;
 
 public class Plateau {
 
+    public IEvent getCase(int position) {
+        return al.get(position);
+    }
+
     public ArrayList<IEvent> al;
     public Plateau(){
         this.al = new ArrayList<>();
@@ -77,6 +81,12 @@ public class Plateau {
         al.add(new EmptyCase());
         al.add(new EmptyCase());
         al.add(new EmptyCase());
+    }
+    public void addEmptyCase() {
+        al.add(new EmptyCase());
+    }
+    public void deleteCase(int position) {
+        al.remove(position);
     }
 }
 
